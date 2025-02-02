@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "mongodbconnector",
+	"version": "${version}",
+	"name": "MongoDBConnector",
+	"description": "Mod to add MongoDB sync and core Packages to Minecraft Servers",
+	"authors": [
+		"valentimarco"
+	],
+	"contact": {
+		"sources": "https://github.com/valentimarco/MongoDBConnector"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mongodbconnector/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.mongodbconnector.MongoDBConnector",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.mongodbconnector.MongoDBConnectorClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	},
+	"suggests": {
+	}
+}
