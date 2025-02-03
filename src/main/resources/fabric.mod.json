@@ -5,7 +5,8 @@
 	"name": "MongoDBConnector",
 	"description": "Mod to add MongoDB sync and core Packages to Minecraft Servers",
 	"authors": [
-		"valentimarco"
+		"valentimarco",
+		"Unicornman666911"
 	],
 	"contact": {
 		"sources": "https://github.com/valentimarco/MongoDBConnector"
@@ -29,7 +30,7 @@
 	},
 	"depends": {
 		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.20.1",
+		"minecraft": "~1.21.1",
 		"java": ">=17",
 		"fabric-api": "*",
 		"fabric-language-kotlin": "*"

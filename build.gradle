@@ -44,6 +44,8 @@ dependencies {
 	implementation "org.mongodb:mongodb-driver-sync:5.2.1"
 	include "org.mongodb:mongodb-driver-core:5.2.1"
 	implementation "org.mongodb:mongodb-driver-core:5.2.1"
+	include "org.mongodb:bson:5.2.1"
+    implementation "org.mongodb:bson:5.2.1"
 }
 
 processResources {
