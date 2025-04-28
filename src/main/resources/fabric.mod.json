@@ -6,7 +6,7 @@
 	"description": "Mod to add MongoDB sync and core Packages to Minecraft Servers",
 	"authors": [
 		"valentimarco",
-		"Unicornman666911"
+		"TexasUniDev"
 	],
 	"contact": {
 		"sources": "https://github.com/valentimarco/MongoDBConnector"
